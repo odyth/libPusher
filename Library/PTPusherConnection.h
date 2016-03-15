@@ -49,6 +49,8 @@ typedef enum {
  */
 @property (nonatomic, copy, readonly) NSString *socketID;
 
+@property (nonatomic, assign, readonly) PTPusherConnectionState state;
+
 /** The Pusher service URL.
  */
 @property (nonatomic, readonly) NSURL *URL;

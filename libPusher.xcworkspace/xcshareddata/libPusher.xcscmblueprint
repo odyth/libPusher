@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "BC0FBA3FE1461C9545F5777D61055059335F7491",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "541028691008F5325999009F41F7F894F75A0CDF" : 0,
+    "BC0FBA3FE1461C9545F5777D61055059335F7491" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "31762635-A004-4B68-99C7-1311D62712D9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "541028691008F5325999009F41F7F894F75A0CDF" : "..\/..\/..\/..",
+    "BC0FBA3FE1461C9545F5777D61055059335F7491" : "Pusher\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "libPusher",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "libPusher.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:Seat-Ninja\/Hostess.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "541028691008F5325999009F41F7F894F75A0CDF"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:lukeredpath\/libPusher.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "BC0FBA3FE1461C9545F5777D61055059335F7491"
+    }
+  ]
+}

@@ -18,6 +18,7 @@
 #import "PTPusherChannel_Private.h"
 
 #define kPUSHER_HOST @"ws.pusherapp.com"
+#define kPTPusherClientLibraryVersion @"1.6.1"
 
 typedef NS_ENUM(NSUInteger, PTPusherAutoReconnectMode) {
   PTPusherAutoReconnectModeNoReconnect,

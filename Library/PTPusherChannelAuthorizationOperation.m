@@ -39,13 +39,14 @@
   
   NSMutableURLRequest *request = [NSMutableURLRequest requestWithURL:URL];
   [request setHTTPMethod:@"POST"];
-  [request setValue:@"application/x-www-form-urlencoded" forHTTPHeaderField:@"Content-Type"];
+  [request setValue:@"application/json" forHTTPHeaderField:@"Content-Type"];
   
   NSMutableDictionary *requestData = [NSMutableDictionary dictionary];
-  requestData[@"socket_id"] = socketID;
-  requestData[@"channel_name"] = channelName;
+  requestData[@"SocketId"] = socketID;
+  requestData[@"ChannelName"] = channelName;
   
-  [request setHTTPBody:[[requestData sortedQueryString] dataUsingEncoding:NSUTF8StringEncoding]];
+    NSData *data = [NSJSONSerialization dataWithJSONObject:requestData options:0 error:nil];
+    [request setHTTPBody:data];
   
   return [[self alloc] initWithURLRequest:request];
 }
